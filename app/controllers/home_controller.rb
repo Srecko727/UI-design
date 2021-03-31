@@ -11,6 +11,6 @@ class HomeController < ApplicationController
   def covidData
   end
 
-  def otherQueries
+  def otherData
   end
 end
