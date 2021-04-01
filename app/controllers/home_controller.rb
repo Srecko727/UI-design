@@ -2,15 +2,15 @@ class HomeController < ApplicationController
   def homepage
   end
 
-  def labourData
+  def labour_data
   end
 
-  def crimeData
+  def crime_data
   end
 
-  def covidData
+  def covid_data
   end
 
-  def otherData
+  def other_data
   end
 end
