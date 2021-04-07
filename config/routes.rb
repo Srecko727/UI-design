@@ -23,6 +23,7 @@ Rails.application.routes.draw do
   get 'home/covid_data'
   
   get 'home/other_data'
+  get 'home/covid_data/deaths'
   #get 'home/otherData/crimeLabour'
   #get 'home/otherData/crimeCovid'
 

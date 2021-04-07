@@ -14,12 +14,11 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body>
   <%= render 'home/header' %>
   <div class="d-flex justify-content-center align-items-center" style="height:100px;">
-  <div>
+  <div style="height: 100px">
     <%= yield %>
   </div>
 </div>
